@@ -1,11 +1,28 @@
-html {
+.permanent-marker-regular {
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+.gabarito-400 {
+    font-family: "Gabarito", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+    background-color: #f2fcf6;
 }
 
 body {
     margin: 0;
     text-align: center;
+    background-color: transparent;
+    font-family: "Gabarito", serif;
 }
 
 a {
@@ -48,7 +65,8 @@ html {
 }
 
 h1 {
-    font-size: 36px
+    font-size: 36px;
+    font-family: "Permanent Marker", serif;
 }
 
 h2 {
@@ -78,7 +96,8 @@ h4,
 h5,
 h6 {
     font-weight: 400;
-    margin: 10px 0
+    margin: 10px 0;
+    background-color: transparent;
 }
 
 hr {
@@ -94,6 +113,10 @@ img {
 a {
     color: inherit
 }
+
+ul, li {
+    list-style-type: none !important;
+  }
 
 @media screen and (max-width: 480px) {
     html {
