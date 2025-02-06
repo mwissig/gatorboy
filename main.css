@@ -1,12 +1,12 @@
 .permanent-marker-regular {
-    font-family: "Permanent Marker", serif;
+    font-family: "Permanent Marker", serif !important;
     font-weight: 400;
     font-style: normal;
   }
 
   
 .gabarito-400 {
-    font-family: "Gabarito", serif;
+    font-family: "Gabarito", serif !important;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -22,7 +22,7 @@ body {
     margin: 0;
     text-align: center;
     background-color: transparent;
-    font-family: "Gabarito", serif;
+    font-family: "Gabarito", serif !important;
 }
 
 a {
@@ -55,7 +55,6 @@ optgroup {
 
 html,
 body {
-    font-family: "Lato", sans-serif;
     font-size: 15px;
     line-height: 1.5
 }
@@ -66,7 +65,7 @@ html {
 
 h1 {
     font-size: 36px;
-    font-family: "Permanent Marker", serif;
+    font-family: "Permanent Marker", serif !important;
 }
 
 h2 {
